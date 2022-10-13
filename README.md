@@ -16,9 +16,13 @@
   * AdaDelta
 6. Plots for training loss, training accuracy, validation loss, and validation accuracy are visualized
 
-7. An EarlyStopping is implementd and the model is a saved at a ~checkpoint~ ,
+7. An *EarlyStopping* is implementd and the model is a saved at a *checkpoint* ,
    - to implement EarlyStopping and save model at a checkpoint when
-     - no progress has been acheived and/or
-     - overfitting has been observed.
+      - no progress has been acheived and/or
+      - overfitting has been observed.
 8. Model is saved and restored.
 9. Various metrics are displayed that can be helpful to the customer/reader.
+
+
+## Result:
+* Best accuracy is provided by Optimizer - SGD for the best model with ~83% accuracy.
